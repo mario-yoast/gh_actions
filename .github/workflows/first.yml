@@ -48,3 +48,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      # Print the input tags that are used
+      - name: Print input tags
+        run:  Echo The input tags are ${{ inputs.tags }} 
