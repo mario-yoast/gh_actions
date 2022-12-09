@@ -50,4 +50,4 @@ jobs:
           echo test, and deploy your project.
       # Print the input tags that are used
       - name: Print inputs
-        run:  echo The inputs are ${{ inputs }} 
+        run:  echo PHP version ${{ inputs.version }} runmode ${{ inputs.runmode }}
