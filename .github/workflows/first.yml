@@ -50,4 +50,4 @@ jobs:
           echo test, and deploy your project.
       # Print the input tags that are used
       - name: Print input tags
-        run:  Echo The input tags are ${{ inputs.tags }} 
+        run:  echo The input tags are ${{ inputs.tags }} 
